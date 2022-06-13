@@ -1,0 +1,29 @@
+{
+  "name": "husky-Commitlint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xiumubai/husky-Commitlint.git",
+  "author": "xiumubai <1547702880@qq.com>",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "config": {
+    "commitizne": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "src/*": "eslint --ext .js,.ts,.tsx"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^8.17.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "prettier": "2.6.2"
+  }
+}
