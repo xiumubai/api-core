@@ -1,0 +1,29 @@
+/*
+ * @Author: 朽木白
+ * @Date: 2022-06-15 16:52:42
+ * @LastEditors: 1547702880@qq.com
+ * @LastEditTime: 2022-06-15 16:52:45
+ * @Description:
+ */
+let imageAsync = (url) => {
+  return new Promise((resolve, reject) => {
+    let img = new Image();
+    img.src = url;
+    img.οnlοad = () => {
+      console.log(`图片请求成功，此处进行通用操作`);
+      resolve(image);
+    };
+    img.οnerrοr = (err) => {
+      console.log(`失败，此处进行失败的通用操作`);
+      reject(err);
+    };
+  });
+};
+
+imageAsync('url')
+  .then(() => {
+    console.log('加载成功');
+  })
+  .catch((error) => {
+    console.log('加载失败');
+  });

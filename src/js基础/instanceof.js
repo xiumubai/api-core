@@ -1,4 +1,4 @@
-function myinstance(left, right) {
+function myInstanceof(left, right) {
   let proto = Object.getPrototypeOf(left);
 
   let prototype = right.prototype;
