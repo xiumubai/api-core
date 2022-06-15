@@ -1,1 +1,1 @@
-## 常见手写 代码 合集
+1. [Object.create]('./src/create.js')
