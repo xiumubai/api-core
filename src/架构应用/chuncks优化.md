@@ -1,11 +1,3 @@
-<!--
- * @Author: 朽木白
- * @Date: 2022-07-08 23:52:59
- * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-07-09 00:21:27
- * @Description:
--->
-
 https://blog.csdn.net/u013468030/article/details/115456420
 
 ## 为什么要进行 Chunks 优化
