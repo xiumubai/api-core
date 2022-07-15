@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-07-12 11:38:43
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-07-12 11:48:57
+ * @LastEditTime: 2022-07-15 19:20:30
  * @Description: 
  */
 let num =1
@@ -54,3 +54,6 @@ setTimeout(() => {
 })
 
 console.log('7');
+
+
+// write something 
