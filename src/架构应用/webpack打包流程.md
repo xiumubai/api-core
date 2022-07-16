@@ -1,5 +1,6 @@
 ## webpack 打包过程
 
+参考文章：https://mp.weixin.qq.com/s/sT3xxAs_RXg8GQ6VFCKjCQ
 https://zhuanlan.zhihu.com/p/400015634
 代码头部首先引入 webpack 和配置文件参数 options,通过执行 webpack(options)即可生成 compiler 对象,再执行对象的 run 方法就能开始启动代码编译.
 
