@@ -1,3 +1,10 @@
+/*
+ * @Author: 朽木白
+ * @Date: 2022-07-19 17:17:06
+ * @LastEditors: 1547702880@qq.com
+ * @LastEditTime: 2022-07-21 21:14:10
+ * @Description:
+ */
 /** 可继续遍历的数据类型 */
 const mapTag = '[object Map]';
 const setTag = '[object Set]';
